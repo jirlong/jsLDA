@@ -70,7 +70,7 @@ if (!Object.keys) {
 // Change the strings at the end of these lines to reset the default filenames!
 
 var documentsURL = "news.tsv";
-var stopwordsURL = "stoplist_tw.txt";
+var stopwordsURL = "stoplist_tw_short.txt";
 
 var documentsFileArray = [];
 
@@ -237,7 +237,7 @@ function parseLine(line) {
         var topicCounts = zeros(numTopics);
 
         rawTokens.forEach(function (word) {
-            if (word !== "") {
+            if (word !== "" && word.length > 1) {
                 var topic = Math.floor(Math.random() * numTopics);
 
                 //      if (word.length <= 2) { stopwords[word] = 1; }

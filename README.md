@@ -1,6 +1,8 @@
 jsLDA
 =====
 
+
+
 An implementation of latent Dirichlet allocation in javascript. A [live demonstration](http://mimno.infosci.cornell.edu/jsLDA/jslda.html) is available.
 
 Instructions:
