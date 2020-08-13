@@ -27,13 +27,13 @@
 
 <body>
     <div id="tooltip"></div>
-
     <div id="main">
+            <p>這是改寫自自<a href="http://mimno.infosci.cornell.edu/jsLDA/jslda.html">mimno/jsLDA(A Live Demo)</a>的中文版線上LDA，你可以<a href="https://github.com/jirlong/jsLDA">點選這裡</a>觀看如何準備你的測試資料。</p>
         <div id="form" class="top">
             <button id="sweep">Run 50 iterations</button>
             Iterations: <span id="iters">0</span>
 
-            <span id="num_topics_control">Train with <input id="num-topics-input" type="range" name="topics" value="8" min="3" max="100" oninput="updateTopicCount(this)" onchange="onTopicsChange(this)" /> <span id="num_topics_display">8</span> topics</span>
+            <span id="num_topics_control">Train with <input id="num-topics-input" type="range" name="topics" value="12" min="3" max="100" oninput="updateTopicCount(this)" onchange="onTopicsChange(this)" /> <span id="num_topics_display">12</span> topics</span>
         </div>
 
         <div class="sidebar">

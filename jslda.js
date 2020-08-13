@@ -113,7 +113,7 @@ function onTopicsChange(input) {
 
 var documentTopicSmoothing = 0.1;
 var topicWordSmoothing = 0.01;
-var numTopics = QueryString.topics ? parseInt(QueryString.topics) : 8;
+var numTopics = QueryString.topics ? parseInt(QueryString.topics) : 12;
 if (isNaN(numTopics)) {
     alert("The requested number of topics [" + QueryString.topics + "] couldn't be interpreted as a number");
     numTopics = 16;
