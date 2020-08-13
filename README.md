@@ -1,6 +1,9 @@
-jsLDA
+jsLDA.tw
 =====
 
+這是改寫自[mimno/jsLDA](https://github.com/mimno/jsLDA)的中文版線上LDA，你可以[點選這裡](https://jirlong.github.io/jsLDA/jslda.html)測試一下線上版。以下為原作者mimno對該服務的說明，請特別注意輸入格式必須要用TAB分隔，而你所提供的中文內容，也不應有TAB包含在內容中。
+
+    [doc ID] [tab] [label] [tab] [text...]
 
 
 An implementation of latent Dirichlet allocation in javascript. A [live demonstration](http://mimno.infosci.cornell.edu/jsLDA/jslda.html) is available.
